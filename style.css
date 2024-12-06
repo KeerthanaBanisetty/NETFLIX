@@ -66,6 +66,11 @@ body {
   margin-right: 10px;
   width: 200px;
 }
+@media (max-width:750px){
+  {
+    grid-template-columns: 1fr 1fr;
+}
+}
 
 header {
   display: flex;
