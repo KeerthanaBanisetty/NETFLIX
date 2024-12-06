@@ -67,18 +67,18 @@ body {
   width: 200px;
 }
 @media (max-width:750px){
-  {
+ .movies__container{
     grid-template-columns: 1fr 1fr;
 }
 }
 @media (min-width:751px) and (max-width:999px){
-  {
+ .movies__container{
     grid-template-columns: 1fr 1fr 1fr;
 }
 }
 
 @media (min-width:1000px) {
-  {
+ .movies__container{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 }
